@@ -364,18 +364,11 @@
       "detailOne": "An abstract canvas art piece that adds color and sophistication to your living space. The bold strokes and dynamic composition make it a focal point in any room."
     },
     {
-      "id": "2eb5",
-      "name": "wivel chair",
-      "category": "livingroom",
-      "image": "https://i.pinimg.com/564x/bc/ea/89/bcea896786826d048bdb6f4d486fc241.jpg",
-      "new_price": 5000,
-      "old_price": 6000,
-      "description": "Turoy ivory s living room design",
-      "rating": 4.9,
-      "reviews": 21,
-      "topTrends": false,
-      "newCollections": true,
-      "detailOne": "Sit like a Bond villain whose only real diabolical concern is comfort. Photo by @amyepeters: lounge chair, chair, scandinavian, scandinavian living room, living room, living room designs, living room inspo, decor home living room, neutral living room, cozy corner, reading nook"
+      "id": "ce1a",
+      "name": "bazil",
+      "category": "decor",
+      "image": "https://i.pinimg.com/736x/d2/3b/e8/d23be84031a84668c6a4e4558e79a32b.jpg",
+      "new_price": "345466"
     }
   ],
   "users": [
@@ -400,6 +393,7 @@
       "name": "dilshad",
       "email": "dilshad@gmail.com",
       "password": "121212",
+      "role": "",
       "cart": []
     },
     {
@@ -438,6 +432,59 @@
           "quantity": 2
         }
       ]
+    },
+    {
+      "id": "16f3",
+      "name": "sinan",
+      "email": "sinan123@gmail.com",
+      "password": "sinan123",
+      "role": "",
+      "cart": []
+    },
+    {
+      "id": "a6a6",
+      "name": "sinan",
+      "email": "sinanmhd@gmail.com",
+      "password": "sinan123",
+      "role": "user",
+      "cart": []
+    },
+    {
+      "id": "0f6c",
+      "name": "bazil",
+      "email": "bazilad@gmail.com",
+      "password": "bazil123",
+      "role": "admin",
+      "cart": []
+    }
+  ],
+  "order": [
+    {
+      "userId": "1",
+      "userName": "sinan",
+      "productName": "Upholstered Storage Bench",
+      "productImage": "https://i.pinimg.com/enabled_hi/564x/57/5c/14/575c14857df7a76096171531b7d0827c.jpg",
+      "quantity": 1,
+      "totalPrice": 600,
+      "id": "08ea"
+    },
+    {
+      "userId": "2",
+      "userName": "bazil",
+      "productName": "Mirrored Vanity Table",
+      "productImage": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791082.jpg?t=st=1719940617~exp=1719944217~hmac=a22f726a36991ac983436611a5d154d867292bf12b8a5d0d1210517d6c0abe04&w=740",
+      "quantity": 2,
+      "totalPrice": 700,
+      "id": "dd0e"
+    },
+    {
+      "userId": "3",
+      "userName": "NIHAL",
+      "productName": "Mirrored Vanity Table",
+      "productImage": "https://img.freepik.com/free-photo/view-modern-entryway-with-interior-decor_23-2150791082.jpg?t=st=1719940617~exp=1719944217~hmac=a22f726a36991ac983436611a5d154d867292bf12b8a5d0d1210517d6c0abe04&w=740",
+      "quantity": 2,
+      "totalPrice": 700,
+      "id": "dd0e"
     }
   ]
 }
