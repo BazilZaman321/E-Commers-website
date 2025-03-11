@@ -23,6 +23,8 @@ import AdminProducts from "./admin/pages/AdminProducts";
 import EditProducts from "./admin/pages/EditProducts";
 import Users from "./admin/pages/Users";
 import Orders from "./admin/pages/Orders";
+import ProductPage from "./admin/pages/ProductPage";
+import ProductDetails from "./colloction/ProductDeatails";
 
 function App() {
   return (
@@ -59,6 +61,7 @@ function AppContent() {
             <Route path="/bedroom" element={<Bedroom />} />
             <Route path="/living-room" element={<LivingRoom />} />
             <Route path="/decor" element={<Decor />} />
+            <Route path="/:category/ProductDetails/:id" element={<ProductDetails />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/payment" element={<Payment />} />
             <Route path="/login" element={<Login />} />

@@ -5,7 +5,7 @@
       "name": "Extendable Dining Table",
       "category": "dining",
       "image": "https://i.pinimg.com/564x/e6/33/c0/e633c0a5b1b69102d77ebac5af5f46c9.jpg",
-      "new_price": 800,
+      "new_price": "900",
       "old_price": 2000,
       "description": "An extendable wood dining table that adapts to your dining needs.",
       "rating": 4.6,
@@ -369,17 +369,22 @@
       "category": "decor",
       "image": "https://i.pinimg.com/736x/d2/3b/e8/d23be84031a84668c6a4e4558e79a32b.jpg",
       "new_price": "345466"
+    },
+    {
+      "id": "8f75",
+      "name": "candle",
+      "category": "dinning",
+      "image": "https://i.pinimg.com/736x/d2/3b/e8/d23be84031a84668c6a4e4558e79a32b.jpg",
+      "new_price": "455565"
     }
   ],
   "users": [
     {
-      "id": "cc73"
-    },
-    {
       "id": "5e83",
       "email": "bazil@gmail.com",
       "password": "121212",
-      "cart": []
+      "cart": [],
+      "isBlocked": false
     },
     {
       "id": "2daf",
@@ -391,17 +396,19 @@
     {
       "id": "5cba",
       "name": "dilshad",
-      "email": "dilshad@gmail.com",
+      "email": "  ",
       "password": "121212",
       "role": "",
-      "cart": []
+      "cart": [],
+      "isBlocked": true
     },
     {
       "id": "16e0",
       "name": "aginaspk",
       "email": "aginaspk@gmail.com",
       "password": "12345678",
-      "cart": []
+      "cart": [],
+      "isBlocked": false
     },
     {
       "id": "6d22",
@@ -455,6 +462,15 @@
       "email": "bazilad@gmail.com",
       "password": "bazil123",
       "role": "admin",
+      "cart": []
+    },
+    {
+      "id": "27b0",
+      "name": "manu",
+      "email": "manu@gmail.com",
+      "password": "141414",
+      "role": "user",
+      "isBlock": false,
       "cart": []
     }
   ],

@@ -7,14 +7,14 @@ import { productsContext } from "../../context/ProductContext";
 
 function AdminProducts() {
   const { product } = useContext(productsContext);
-  const [posts, setPosts] = useState([]);  // Store products
-  const [loading, setLoading] = useState(true);  // Loading state
+  const [posts, setPosts] = useState([]);  
+  const [loading, setLoading] = useState(true);  
 
   useEffect(() => {
     // Fetch products from API
     const fetchProducts = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/products"); // Update endpoint
+        const response = await axios.get("http://localhost:3000/products"); 
         setPosts(response.data);
         setLoading(false);
       } catch (error) {
@@ -24,7 +24,7 @@ function AdminProducts() {
     };
     fetchProducts();
   }, []);
-
+// delete product
   const deleteData = async (id) => {
     try {
       await axios.delete(`http://localhost:3000/products/${id}`);
@@ -74,6 +74,7 @@ function AdminProducts() {
                       className="w-12 h-12 object-cover rounded-md shadow-sm"
                     />
                   </td>
+
                   <td className="border border-gray-300 px-4 py-2 text-center">
                     <div className="flex items-center justify-center space-x-4">
                       <span

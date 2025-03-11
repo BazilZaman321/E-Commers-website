@@ -13,10 +13,11 @@ function Sidebar() {
   return (
     <div className="flex ">
       <div className={`bg-gray-900 text-white h-screen fixed w-[20%] transition-all flex flex-col justify-between`}>
-        {/* Sidebar Header */}
 
-
-        {/* Menu Links */}
+        <div className="text-lg xl:text-xl font-bold logoss ">
+                City Furniture
+              </div>
+      
         <ul className="mt-4 space-y-2">
           <li>
             <Link to="/admin/users" className="block px-4 py-2 hover:bg-gray-700">Users</Link>

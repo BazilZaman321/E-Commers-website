@@ -22,6 +22,11 @@ function Login() {
     try {
       const user = users.find((item) => item.email === email && item.password === password);
 
+      if(user.isBlocked===true){
+        alert("Something went wrong.....")
+        return
+      }
+
       if (user) {
         localStorage.setItem("user", JSON.stringify(user));
         setErrorMessage(null); 

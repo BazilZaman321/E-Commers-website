@@ -80,7 +80,7 @@ function Navbar() {
     <nav className="bg-black text-white p-4 fixed top-0 left-0 w-full z-50 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="text-lg xl:text-xl font-bold">
+        <div className="text-lg xl:text-xl font-bold logoss">
           <Link to="/" onClick={closeMenu}>City Furniture</Link>
         </div>
 

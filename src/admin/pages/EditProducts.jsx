@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 
 function EditProducts() {
-  const { id } = useParams(); // Get product ID from URL
+  const { id } = useParams(); 
   const navigate = useNavigate();
   
   const [product, setProduct] = useState({
@@ -34,7 +34,7 @@ function EditProducts() {
       [name]: value,
     }));
   };
-
+// product update
   
   const handleUpdate = async (e) => {
     e.preventDefault();
@@ -51,6 +51,7 @@ function EditProducts() {
   };
 
   return (
+    // product eedit form
     <div className="max-w-md mx-auto mt-8 p-4 bg-white rounded shadow">
       <h2 className="text-lg font-semibold text-center mb-4">Update Product</h2>
       <form onSubmit={handleUpdate} className="space-y-3">

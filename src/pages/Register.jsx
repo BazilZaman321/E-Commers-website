@@ -17,6 +17,7 @@ function Register() {
         email,
         password,
         role: "user",
+        isBlock:false,
         cart: [],
       });
 
